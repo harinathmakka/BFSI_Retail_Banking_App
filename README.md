@@ -1,3 +1,5 @@
+---
+
 # **BFSI Retail Banking Application 🏦💻**
 
 A full-stack **Retail Banking System** built with **Flask + MySQL + React**, featuring secure authentication, OTP verification, account operations, fund transfers, bill payments, loans, support tickets, admin screens, and detailed transaction logs.
@@ -26,8 +28,11 @@ A production-grade demo of a modern BFSI workflow with strong security patterns 
 16. [Commit Guide](#commit-guide)
 17. [License](#license)
 18. [Author](#author)
+19. [Project Report (PDF)](#project-report)
 
 ---
+
+<a name="overview"></a>
 
 # **Overview 🚀**
 
@@ -46,6 +51,8 @@ This project is a **secure BFSI Retail Banking system** that simulates real-worl
 The goal is to create a **production-style** system with proper architecture, modular backend components, and scalable frontend structure.
 
 ---
+
+<a name="key-features"></a>
 
 # **Key Features ✨**
 
@@ -102,6 +109,8 @@ The goal is to create a **production-style** system with proper architecture, mo
 
 ---
 
+<a name="project-architecture"></a>
+
 # **Project Architecture 🧱**
 
 ```
@@ -134,6 +143,8 @@ The goal is to create a **production-style** system with proper architecture, mo
 
 ---
 
+<a name="tech-stack"></a>
+
 # **Tech Stack 🧰**
 
 ### **Backend**
@@ -162,6 +173,8 @@ The goal is to create a **production-style** system with proper architecture, mo
 * MySQL Workbench
 
 ---
+
+<a name="folder-structure"></a>
 
 # **Folder Structure 📂**
 
@@ -197,6 +210,8 @@ BFSI_Retail_Banking_App/
 
 ---
 
+<a name="setup-instructions"></a>
+
 # **Setup Instructions ⚡**
 
 ## **1️⃣ Backend Setup**
@@ -230,6 +245,8 @@ Backend runs at: **[http://127.0.0.1:5000](http://127.0.0.1:5000)**
 
 ---
 
+<a name="frontend-setup"></a>
+
 # **5️⃣ Frontend Setup**
 
 ```bash
@@ -241,6 +258,8 @@ npm run dev
 Frontend runs at: **[http://localhost:5173](http://localhost:5173)**
 
 ---
+
+<a name="env-configuration"></a>
 
 # **.env Configuration 🔐**
 
@@ -256,6 +275,8 @@ FLASK_ENV=development
 Also provide `.env.example` for others.
 
 ---
+
+<a name="database--migrations"></a>
 
 # **Database & Migrations 🗄️**
 
@@ -274,6 +295,8 @@ flask db upgrade
 ```
 
 ---
+
+<a name="api-endpoints"></a>
 
 # **API Endpoints 📡**
 
@@ -325,6 +348,8 @@ flask db upgrade
 
 ---
 
+<a name="frontend-details"></a>
+
 # **Frontend Details 🖥️**
 
 ### **Axios Interceptor**
@@ -356,6 +381,8 @@ Authorization: Bearer <token>
 
 ---
 
+<a name="testing-workflow"></a>
+
 # **Testing Workflow ✔️**
 
 ### Manual Tests
@@ -371,6 +398,8 @@ Authorization: Bearer <token>
 
 ---
 
+<a name="screenshots--visuals"></a>
+
 # **Screenshots & Visuals 🎨**
 
 Place images inside `/docs/`.
@@ -384,6 +413,8 @@ Suggested names:
 * `loan_application.png`
 
 ---
+
+<a name="production-deployment"></a>
 
 # **Production Deployment 🚀**
 
@@ -401,6 +432,8 @@ Suggested names:
 * `docker-compose.yml` for backend + MySQL + frontend
 
 ---
+
+<a name="troubleshooting"></a>
 
 # **Troubleshooting 🛠️**
 
@@ -431,6 +464,8 @@ flask db upgrade
 
 ---
 
+<a name="preparing-repository-for-github"></a>
+
 # **Preparing Repository for GitHub 🔒**
 
 ### Include (commit these):
@@ -451,6 +486,8 @@ flask db upgrade
 * **pycache**
 
 ---
+
+<a name="commit-guide"></a>
 
 # **Commit Guide ✍️**
 
@@ -474,6 +511,8 @@ docs: update README with setup instructions
 
 ---
 
+<a name="license"></a>
+
 # **License 📝**
 
 This project is licensed under the **MIT License**.
@@ -481,9 +520,19 @@ See the `LICENSE` file for full details.
 
 ---
 
+<a name="author"></a>
+
 # **Author ✨**
 
 **HARINATH MAKKA**
 Developer • BFSI Enthusiast • Full-Stack Engineer
+
+---
+
+<a name="project-report"></a>
+
+# **Project Report (PDF)** 📄
+
+**Report PDF:** [report.pdf](./report.pdf)
 
 ---
