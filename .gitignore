@@ -1,0 +1,46 @@
+cat > .gitignore <<'EOF'
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pytest_cache/
+*.migrate.*
+*.sqlite3
+
+# Virtualenvs
+venv/
+backend/venv/
+.env
+.env.* 
+
+# Node
+node_modules/
+dist/
+build/
+public/build/
+
+# Frontend lock (keep if you want reproducible installs)
+# package-lock.json
+
+# IDEs
+.vscode/
+.idea/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Logs
+*.log
+
+# Mac / Linux swap / temp
+*.swp
+*.swo
+*.tmp
+
+# Misc
+*.egg-info/
+dist/
+build/
+EOF
